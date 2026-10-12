@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="334" viewBox="0 0 760 334" role="img" aria-label="aletheia — staff proposal">
+<rect width="760" height="334" rx="10" fill="#14161a"/>
+<path d="M0 10a10 10 0 0 1 10-10h740a10 10 0 0 1 10 10v26H0z" fill="#1d2026"/>
+<circle cx="20" cy="18" r="5.5" fill="#4a4f58"/>
+<circle cx="38" cy="18" r="5.5" fill="#4a4f58"/>
+<circle cx="56" cy="18" r="5.5" fill="#4a4f58"/>
+<text x="380.0" y="23" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#7d8590">aletheia — staff proposal</text>
+<text x="24" y="68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
+<tspan fill="#7d8590">Proposal</tspan>
+<tspan fill="#7d8590"> · file · from Hafiz · filing clerk</tspan>
+</text>
+<text x="24" y="90" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
+</text>
+<text x="24" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
+<tspan fill="#d8dce3" font-weight="700">site-survey-north-wing.pdf arrived in the inbox</tspan>
+</text>
+<text x="24" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
+<tspan fill="#7d8590">target      </tspan>
+<tspan fill="#d8dce3">originals/clinic-rollout/</tspan>
+</text>
+<text x="24" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
+<tspan fill="#7d8590">confidence  </tspan>
+<tspan fill="#6fbf8a">high</tspan>
+</text>
+<text x="24" y="178" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
+<tspan fill="#7d8590">because     </tspan>
+<tspan fill="#d8dce3">same sender and site name as last week's survey</tspan>
+</text>
+<text x="24" y="200" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
+</text>
+<text x="24" y="222" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
+<tspan fill="#7d8590">1 Confirm   2 Re-route   3 Unsorted   4 Skip   5 Archive as noise</tspan>
+</text>
+<text x="24" y="244" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
+</text>
+<text x="24" y="266" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
+<tspan fill="#e0b25c">&gt; </tspan>
+<tspan fill="#d8dce3" font-weight="700">1</tspan>
+</text>
+<text x="24" y="288" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
+<tspan fill="#6fbf8a">✓ </tspan>
+<tspan fill="#d8dce3">moved · logged · committed</tspan>
+</text>
+</svg>
