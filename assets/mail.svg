@@ -1,54 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="356" viewBox="0 0 760 356" role="img" aria-label="aletheia — mail walk">
-<rect width="760" height="356" rx="10" fill="#14161a"/>
-<path d="M0 10a10 10 0 0 1 10-10h740a10 10 0 0 1 10 10v26H0z" fill="#1d2026"/>
-<circle cx="20" cy="18" r="5.5" fill="#4a4f58"/>
-<circle cx="38" cy="18" r="5.5" fill="#4a4f58"/>
-<circle cx="56" cy="18" r="5.5" fill="#4a4f58"/>
-<text x="380.0" y="23" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#7d8590">aletheia — mail walk</text>
-<text x="24" y="68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
-<tspan fill="#7d8590">captured 08:30 · next capture 09:00</tspan>
-</text>
-<text x="24" y="90" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
-<tspan fill="#d8dce3" font-weight="700">14 threads · 2 your turn · 1 urgent</tspan>
-</text>
-<text x="24" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
-</text>
-<text x="24" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
-<tspan fill="#e0b25c">your turn  </tspan>
-<tspan fill="#e0685c">urgent  </tspan>
-<tspan fill="#d8dce3">Pilot site list — confirm by Thursday   </tspan>
-<tspan fill="#7d8590">network vendor</tspan>
-</text>
-<text x="24" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
-<tspan fill="#e0b25c">your turn  </tspan>
-<tspan fill="#7d8590">        </tspan>
-<tspan fill="#d8dce3">Sensor spec, revision 3                 </tspan>
-<tspan fill="#7d8590">telemetry supplier</tspan>
-</text>
-<text x="24" y="178" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
-<tspan fill="#7d8590">their turn </tspan>
-<tspan fill="#7d8590">        </tspan>
-<tspan fill="#d8dce3">Handover checklist sign-off             </tspan>
-<tspan fill="#7d8590">clinic operations</tspan>
-</text>
-<text x="24" y="200" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
-</text>
-<text x="24" y="222" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
-<tspan fill="#e0b25c">&gt; </tspan>
-<tspan fill="#d8dce3" font-weight="700">Pilot site list — confirm by Thursday</tspan>
-</text>
-<text x="24" y="244" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
-<tspan fill="#7d8590">summary  </tspan>
-<tspan fill="#d8dce3">The vendor sent the final five sites and needs a yes before Thursday.</tspan>
-</text>
-<text x="24" y="266" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
-<tspan fill="#7d8590">draft    </tspan>
-<tspan fill="#d8dce3">Confirmed for all five sites. Please send the survey team's arrival times.</tspan>
-</text>
-<text x="24" y="288" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
-</text>
-<text x="24" y="310" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
-<tspan fill="#6fbf8a">✓ </tspan>
-<tspan fill="#d8dce3">Draft saved · not sent · you send it</tspan>
-</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="352" viewBox="0 0 760 352" role="img" aria-label="aletheia · mail walk">
+<rect x="0.5" y="0.5" width="759" height="351" rx="8" fill="#14161a" stroke="#30363d"/>
+<text x="28" y="25" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8b949e">aletheia · mail walk</text>
+<line x1="1" y1="40" x2="759" y2="40" stroke="#30363d"/>
+<text x="28" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#8b949e">captured 08:30 · next capture 09:00</tspan></text>
+<text x="28" y="100" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#d8dce3" font-weight="700">14 threads · 2 your turn · 1 urgent</tspan></text>
+<text x="28" y="122" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve"></text>
+<text x="28" y="144" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#e0b25c">your turn   </tspan><tspan fill="#e0685c">urgent   </tspan><tspan fill="#d8dce3">Pilot site list, confirm by Thursday      </tspan><tspan fill="#8b949e">network vendor</tspan></text>
+<text x="28" y="166" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#e0b25c">your turn   </tspan><tspan fill="#8b949e">         </tspan><tspan fill="#d8dce3">Sensor spec, revision 3                   </tspan><tspan fill="#8b949e">telemetry supplier</tspan></text>
+<text x="28" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#8b949e">their turn  </tspan><tspan fill="#8b949e">         </tspan><tspan fill="#d8dce3">Handover checklist sign-off               </tspan><tspan fill="#8b949e">clinic operations</tspan></text>
+<text x="28" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve"></text>
+<text x="28" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#e0b25c">&gt; </tspan><tspan fill="#d8dce3" font-weight="700">Pilot site list, confirm by Thursday</tspan></text>
+<text x="28" y="254" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#8b949e">summary  </tspan><tspan fill="#d8dce3">The vendor sent the final five sites and needs a yes before Thursday.</tspan></text>
+<text x="28" y="276" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#8b949e">draft    </tspan><tspan fill="#d8dce3">Confirmed for all five sites. Please send the survey team's arrival times.</tspan></text>
+<text x="28" y="298" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve"></text>
+<text x="28" y="320" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#6fbf8a">✓ </tspan><tspan fill="#d8dce3">Draft saved · not sent · you send it</tspan></text>
 </svg>

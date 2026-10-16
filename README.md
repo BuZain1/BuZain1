@@ -2,7 +2,10 @@
 
 Aletheia is the system I run my work through. I built it, I use it every working day, and I keep it running. This page shows how it is built and how it behaves.
 
-![Architecture diagram. A central brain of markdown files in a git repository, with a search index and an MCP server beside it. Background agents on a home server send proposals into an approval queue, and only what I approve is committed to the brain. A laptop terminal session, a phone app and a heads-up dashboard all read the same brain. Hooks connect the session to it.](assets/architecture.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/architecture-dark.svg">
+  <img alt="Architecture diagram. A central brain of markdown files in a git repository, with a search index and an MCP server beside it. Background agents on a home server send proposals into an approval queue, and only what I approve is committed to the brain. A laptop terminal session, a phone app and a heads-up dashboard all read the same brain. Hooks connect the session to it." src="assets/architecture-light.svg">
+</picture>
 
 *Every surface reads the same brain, and the agents reach it only through the approval queue.*
 
