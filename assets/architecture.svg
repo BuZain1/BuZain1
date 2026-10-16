@@ -28,15 +28,15 @@
 <line x1="272" y1="219" x2="262" y2="219" stroke="#7d8590" stroke-width="1.5" marker-end="url(#a)"/>
 <line x1="488" y1="219" x2="498" y2="219" stroke="#7d8590" stroke-width="1.5" marker-end="url(#a)"/>
 <rect x="24" y="318" width="712" height="40" rx="8" fill="#20201a" stroke="#e0b25c"/>
-<text x="380.0" y="343.0" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e0b25c">Proposal queue — anything canonical waits for my yes</text>
+<text x="380.0" y="343.0" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e0b25c">Approval queue: nothing reaches the record without my yes</text>
 <line x1="380" y1="318" x2="380" y2="280" stroke="#7d8590" stroke-width="1.5" marker-end="url(#a)"/>
 <text x="388.0" y="303.0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#7d8590">on yes · committed</text>
-<text x="24" y="398" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" letter-spacing="1.5" fill="#7d8590">THE STAFF · ALWAYS ON</text>
+<text x="24" y="398" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" letter-spacing="1.5" fill="#7d8590">AGENTS · ALWAYS ON</text>
 <rect x="24" y="412" width="344" height="64" rx="8" fill="#1d2026" stroke="#3a3f48"/>
-<text x="196.0" y="442.0" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#d8dce3">Clerks</text>
+<text x="196.0" y="442.0" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#d8dce3">Mechanical jobs</text>
 <text x="196.0" y="460.0" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#7d8590">calendar · filing · brief · audit</text>
 <rect x="392" y="412" width="344" height="64" rx="8" fill="#1d2026" stroke="#3a3f48"/>
-<text x="564.0" y="442.0" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#d8dce3">Counsel</text>
+<text x="564.0" y="442.0" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#d8dce3">Judgment work</text>
 <text x="564.0" y="460.0" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#7d8590">design · analysis · research · review · writing</text>
 <line x1="196" y1="412" x2="196" y2="360" stroke="#7d8590" stroke-width="1.5" marker-end="url(#a)"/>
 <text x="204.0" y="390.0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#7d8590">propose</text>

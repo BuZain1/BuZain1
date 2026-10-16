@@ -1,28 +1,28 @@
 # Aletheia
 
-Aletheia is the system I run my work through. I designed it, I use it every working day, and I keep it running. The code is private. This page shows how it is built and how it behaves.
+Aletheia is the system I run my work through. I built it, I use it every working day, and I keep it running. This page shows how it is built and how it behaves.
 
 ![Architecture diagram. A central brain of markdown files in a git repository, with a search index and an MCP server beside it. Background agents on a home server send proposals into an approval queue, and only what I approve is committed to the brain. A laptop terminal session, a phone app and a heads-up dashboard all read the same brain. Hooks connect the session to it.](assets/architecture.svg)
 
-*One brain, several ways in, and a queue between the agents and the record.*
+*Every surface reads the same brain, and the agents reach it only through the approval queue.*
 
 ## The rules it runs on
 
 **Seeing and acting are kept apart.** An agent that sees widely cannot act. An agent that acts works in a narrow lane. Anything that touches the record or needs judgment becomes a proposal, and I approve or reject it. The test for acting without asking is reversibility: only work that can be undone or regenerated runs on its own.
 
-**Machines declare what they can do.** Work that needs a capability the current machine lacks is parked with a done-check, then drained on a machine that has it.
+**Machines declare what they can do.** When a job needs a capability the current machine lacks, it is parked with a done-check and drained later on a machine that has it.
 
-**Decisions are written down.** Structural choices are recorded as architecture decision records. Later work cites or amends them.
+**Decisions are written down.** I record each structural choice as an architecture decision record, and later work cites or amends it.
 
-**Unattended work can be stopped from anywhere.** A flag file halts it. I can commit the flag from any machine, and a flag the system cannot read halts it too.
+**Unattended work can be stopped from any machine.** Committing a flag file halts it, and a flag the system cannot read halts it too.
 
 ## How it is built
 
-**One brain.** Plain markdown files in a git repository are the record: tasks, a session log, ideas, decisions, and the status of each piece of work. A Postgres and pgvector index sits over them for search and recall. It can be rebuilt from the files at any time, so it is never the source. An MCP server exposes the brain as tools, and any AI client reads the same record.
+The record is plain markdown in a git repository: tasks, a session log, ideas, decisions, and the status of each piece of work. A Postgres and pgvector index sits over the files for search and recall. It can be rebuilt from them at any time, so it is never the source. An MCP server exposes the record as tools, and every AI client I use reads the same brain through it.
 
-**The Staff.** Background agents run on a home server, each with one narrow job. One syncs deadlines to my calendar. One files incoming documents. One drafts the morning brief overnight. One audits the repository on a schedule. Each reports a heartbeat, so I can see which are healthy and which have gone stale. Clerks do mechanical work on scripts or a small model. Counsel do judgment work on a frontier model: design critique, analysis, research, code review, and a check on anything I am about to send.
+Background agents run on a home server, each with one narrow job: syncing deadlines to my calendar, filing incoming documents, drafting the morning brief overnight, auditing the repository on a schedule. Each reports a heartbeat, so I can see which are healthy and which have gone stale. Mechanical jobs run on scripts or a small model. Judgment work runs on a frontier model: design critique, analysis, research, code review, and a check on anything I am about to send.
 
-**Surfaces.** A terminal session on my laptop is the desk. A phone app shows digests and takes a thought on the move. A heads-up dashboard gives a third view.
+I work in a terminal session on my laptop. A phone app is for reading and for catching a thought on the move. A heads-up dashboard shows what is waiting for a decision.
 
 ## A day in use
 
@@ -34,4 +34,10 @@ Aletheia is the system I run my work through. I designed it, I use it every work
 
 ![An agent's proposal to file a document into a project folder, shown with its suggested destination and the choices to approve, re-route or reject.](assets/proposal.svg)
 
-*An agent proposes. I answer in one line.*
+*An agent's proposal waits for my answer, which takes one line.*
+
+![Mail triage. Threads in a ledger, each marked by whose turn it is and how urgent it is, with a drafted reply waiting for me to send.](assets/mail.svg)
+
+*Mail is captured every half hour. A reply stays a draft until I send it myself.*
+
+The code is private. If you want to see it running, ask me for a walkthrough.
